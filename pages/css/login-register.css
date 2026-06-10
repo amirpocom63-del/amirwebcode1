@@ -3,9 +3,10 @@
 
 @font-face {
   font-family: 'Vazir';
-  src: url('fonts/Vazir.eot');
-  src: local('fonts/Vazir'), url('fonts/Vazir.woff') format('woff'), url('fonts/Vazir.ttf') format('truetype'), url('fonts/Vazir.svg') format('svg');
+  src: url('../fonts/Vazir.eot');
+  src: local('../fonts/Vazir'), url('../fonts/Vazir.woff') format('woff'), url('../fonts/Vazir.ttf') format('truetype'), url('../fonts/Vazir.svg') format('svg');
 }
+
 * {
   box-sizing: border-box;
   font-family: "Vazir";
@@ -50,22 +51,7 @@ a {
   text-decoration: none;
   margin: 15px 0;
 }
-.btn{
-  border-radius: 20px;
-  border: 1px solid #FF4B2B;
-    border-top-color: rgb(255, 75, 43);
-    border-right-color: rgb(255, 75, 43);
-    border-bottom-color: rgb(255, 75, 43);
-    border-left-color: rgb(255, 75, 43);
-  background-color: #FF4B2B;
-  color: #FFFFFF;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 12px 45px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  transition: transform 80ms ease-in;
-}
+
 button {
   border-radius: 20px;
   border: 1px solid #FF4B2B;
